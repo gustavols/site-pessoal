@@ -1,0 +1,32 @@
+/* RESET CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--primary-font);
+}
+
+/* VÁRIAVEIS CSS */
+:root {
+    --purple: #5652C7;
+    --green: #2EF500;
+    --white: #fff;
+    --primary-font: 'Poppins', sans-serif;
+}
+
+
+/* ESTILIZAÇÃO PÁGINA INDEX */
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main h1{
+    padding: 30px;
+}
