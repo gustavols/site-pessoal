@@ -21,10 +21,8 @@
 body{
     background-image: url(../assets/background-links-desktop.jpg);
     background-repeat: no-repeat;
-    background-position: center top;
-    background-size: 100%;
-    background-origin: border-box;
-    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
 }
 
 main{
@@ -37,8 +35,8 @@ main{
 }
 
 .contentPage{
-    width: 20vw;
-    height: 65vh;
+    width: 400px;
+    height: 620px;
     background: white;
     display: flex;
     flex-direction: column;
@@ -99,3 +97,45 @@ main{
     justify-content: center;
     padding: 15px;
 }
+
+
+
+/* RESPONSIVIDADE */
+
+/* DISPOSITIVOS MOVEIS */
+@media (max-width: 480px){
+    body{
+        background-image: url(../assets/background-links-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .contentPage{
+        width: 80%;
+        height: 560px;
+    }
+}
+
+/* IPADS/TABLETS */
+@media (max-width: 600px){
+    body{
+        background-image: url(../assets/background-links-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+/* TELAS PEQUENAS/NOTEBOOK */
+@media (max-width: 600px){
+    body{
+        background-image: url(../assets/background-links-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+/* DESKTOPS/TELAS GRANDES */
+@media (max-width: 1200px){
+    
+}
+
